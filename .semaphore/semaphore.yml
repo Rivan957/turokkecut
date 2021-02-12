@@ -10,7 +10,7 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - checkout
+            - 'sem debug job [job-id]'
   - name: 'Block #2'
     task:
       jobs:
