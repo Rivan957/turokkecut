@@ -10,4 +10,7 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - checkout
+            - 'sem debug job [job-id] --duration 3h'
+      env_vars:
+        - name: FOO_1
+          value: BAR_1
